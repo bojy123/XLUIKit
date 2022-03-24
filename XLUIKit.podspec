@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.source       = { :git => "git@github.com:bojy123/XLUIKit.git" , :tag => s.version.to_s}
 
-  s.dependency 'MBProgressHUD', '1.0.0'
+  s.dependency 'MBProgressHUD', '1.2.0'
   s.source_files = 'ModuleCode/*.{h,m}'
   s.resources = "ModuleCode/**/*.{xcassets,strings,xml,storyboard,xib,xcdatamodeld}"
   s.vendored_libraries = "ModuleCode/**/*.{a}"
