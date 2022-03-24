@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "XLUIKit"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "XLUIKit."
   s.requires_arc = true
   s.description  = <<-DESC
