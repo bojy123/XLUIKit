@@ -8,7 +8,7 @@ source 'git@github.com:bojy123/XLSpecs.git'
 
 def dependency_pods
   
-  pod 'MBProgressHUD', '~> 1.2.0'
+  pod 'MBProgressHUD', '1.2.0'
 
 end
 

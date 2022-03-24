@@ -11,7 +11,6 @@
 		06EB1872E9DCA5952C518439 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B049BC7813C433B731F6F5 /* LaunchScreen.storyboard */; };
 		210200691C2F53B9031F286D /* libPods-XLUIKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8036E880F9E19F36C4EA4817 /* libPods-XLUIKit.a */; };
 		22F1627B7431185982D59167 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD8AF3122CDD009030BD0B8F /* Main.storyboard */; };
-		3192F4562F32F4169582EC90 /* XLUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F2AF63CD4F0ED971A5332C7 /* XLUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3383181BD7334B9935A4DAD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227E25CCBA3C750BC2E87C1A /* Foundation.framework */; };
 		3DFDD0FC6D0CD6A419DA70CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A27589E9A5E1F30B1B7B15 /* main.m */; };
 		4CAD033CF9C911CA686EF63D /* libPods-XLUIKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A0FBE7CED8E2DF3851309F /* libPods-XLUIKitDemo.a */; };
@@ -26,6 +25,7 @@
 		AA66277827EC5F2200336CBB /* XLHudManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA66277627EC5F2200336CBB /* XLHudManager.m */; };
 		AA66277B27EC5FC600336CBB /* XLNavViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AA66277927EC5FC600336CBB /* XLNavViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA66277C27EC5FC600336CBB /* XLNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA66277A27EC5FC600336CBB /* XLNavViewController.m */; };
+		AA66277E27EC6B4800336CBB /* XLUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AA66277D27EC6B4800336CBB /* XLUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C34BA574E55B6DE3E02A95A4 /* XLUIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 158C3AA12C579FDCBE5C78C4 /* XLUIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		C94DAF104BA8BF193D49171F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA48D2B66DC0B73B3D10EA6 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
@@ -67,7 +67,6 @@
 		6BA48D2B66DC0B73B3D10EA6 /* AppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7B188EDF59B133FFE9D7C189 /* Pods-XLUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLUIKit.debug.xcconfig"; path = "Target Support Files/Pods-XLUIKit/Pods-XLUIKit.debug.xcconfig"; sourceTree = "<group>"; };
 		8036E880F9E19F36C4EA4817 /* libPods-XLUIKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XLUIKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F2AF63CD4F0ED971A5332C7 /* XLUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLUIKit.h; path = XLUIKit/XLUIKit.h; sourceTree = "<group>"; };
 		A043313E39BBE0A8A5DD54C4 /* ViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A271A08F03991936B376ECDD /* Pods-XLUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLUIKit.release.xcconfig"; path = "Target Support Files/Pods-XLUIKit/Pods-XLUIKit.release.xcconfig"; sourceTree = "<group>"; };
 		AA66276C27EC5E0F00336CBB /* XLBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLBaseViewController.h; sourceTree = "<group>"; };
@@ -78,6 +77,7 @@
 		AA66277627EC5F2200336CBB /* XLHudManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLHudManager.m; sourceTree = "<group>"; };
 		AA66277927EC5FC600336CBB /* XLNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLNavViewController.h; sourceTree = "<group>"; };
 		AA66277A27EC5FC600336CBB /* XLNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLNavViewController.m; sourceTree = "<group>"; };
+		AA66277D27EC6B4800336CBB /* XLUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XLUIKit.h; path = ModuleCode/XLUIKit.h; sourceTree = "<group>"; };
 		BDE6298306232EA345CF2F41 /* XLUIKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLUIKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD8AF3122CDD009030BD0B8F /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0CA88DB9FC2DBB8AD173085 /* Pods-XLUIKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLUIKitDemo.debug.xcconfig"; path = "Target Support Files/Pods-XLUIKitDemo/Pods-XLUIKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -146,8 +146,8 @@
 		7BD585BA091C3CD93CE6542D = {
 			isa = PBXGroup;
 			children = (
+				AA66277D27EC6B4800336CBB /* XLUIKit.h */,
 				05018EE6BA26FF42C912DA2A /* XLUIKit.podspec */,
-				9F2AF63CD4F0ED971A5332C7 /* XLUIKit.h */,
 				36A41E9547B18E584A86F9E4 /* XLUIKit */,
 				C0A7012F750EAE460415EEB0 /* ModuleCode */,
 				272DC5405B047729500DA146 /* Frameworks */,
@@ -225,11 +225,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA66277E27EC6B4800336CBB /* XLUIKit.h in Headers */,
 				AA66277B27EC5FC600336CBB /* XLNavViewController.h in Headers */,
 				AA66277727EC5F2200336CBB /* XLHudManager.h in Headers */,
 				AA66276E27EC5E0F00336CBB /* XLBaseViewController.h in Headers */,
 				AA66277227EC5E8C00336CBB /* XLBaseViewController+Hud.h in Headers */,
-				3192F4562F32F4169582EC90 /* XLUIKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
